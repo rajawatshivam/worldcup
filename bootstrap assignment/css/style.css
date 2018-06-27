@@ -1,0 +1,194 @@
+  body
+  {
+    font-family: sans-serif;
+  }	
+.navbar-brand
+{
+  	text-shadow: 3px 3px red;
+  	font-size:30px; 
+  	margin:0px;
+  	grid-column-start: 1;
+}
+.navbar-nav
+{
+	margin:0;
+	margin-right: 0;
+}
+.nav-item
+{
+	padding-left:2px;
+}
+ .carousel-caption
+    {
+      top:0;
+      color:#d80847;
+      bottom: auto;
+      font-weight: bold;
+    }
+  #slider
+    {
+      margin:30px 0px;
+    }
+ .carousel-indicators li {
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   margin: 0px;
+   text-indent: -999px;
+   cursor: pointer;
+   background-color: #000 \9;
+   background-color: rgba(255, 255, 255, 100);
+   border: 1px solid #000000;
+   border-radius: 10px;
+   padding-right: 0px;
+   margin-right:0px;
+ }
+ .carousel-indicators .active {
+   width: 12px;
+   height: 12px;
+   margin: 0;
+   background-color: #333 \59;
+   background-color: rgba(255, 0, 0, 50);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+.overlay0 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.containercard:hover .overlay0 {
+  opacity: 1;
+}
+
+.overlay1:hover {
+  opacity: 1;
+}
+
+.overlay2:hover {
+  opacity: 1;
+}
+
+.overlay3:hover {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero
+{
+
+}
+.herotext
+{
+	padding-left:100px;
+	font-family:sans-serif;
+	float:left;
+	height:auto;width:40%;
+	font-size:25px;
+	padding-top:25px;
+	color:#A9A9A9;
+}
+.heroimage
+{
+	background-repeat:no-repeat;
+	margin-left:50%;
+	height:100%;
+	width:auto;
+	background-image:url(../img/fifa.png);
+	background-repeat:no-repeat;
+}
+#hero
+{
+	background-color:#434C68;
+	height:330px;
+}
+.heading
+{
+	color: #4b9661;
+	text-shadow: 2px 2px #376605;
+	font-weight: bold;
+}
+.card-text
+{
+	color:#A9A9A9;
+	float:left;
+}
+.card
+{
+	background-color:#434C68;
+}
+.page-footer
+{
+	background-color: #212529;
+}
